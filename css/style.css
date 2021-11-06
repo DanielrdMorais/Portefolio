@@ -714,6 +714,21 @@ background: linear-gradient(90deg, rgba(195,55,100,1) 0%, rgba(29,43,156,1) 100%
   text-align: center;
 }
 
+/* Centered text */
+.projectname {
+  position: absolute;
+  bottom: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px black, 0px 0px 35px black;
+}
+
 /* /portfolio */
 /* testimonial */
 .testimonial-content strong {
