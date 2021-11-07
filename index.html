@@ -23,6 +23,11 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
 </head>
 
@@ -47,7 +52,7 @@
           <a class="nav-link" href="#Projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contacts">Contacts</a>
+          <a class="nav-link" href="#Contacts">Contact</a>
         </li>
       </ul>
     </div>
@@ -73,7 +78,7 @@
 <!-- /hero area -->
 
 <!-- portfolio -->
-<section class="section" id="Projects">
+<section class="section bg-projects" id="Projects">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -120,35 +125,58 @@
 <!-- /portfolio -->
 
 <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
+<div class ="bg-overlay">
+  <div class="bg-aboutme" id="Contacts">
     <div class="container">
-    <!-- contacts -->
-        <section class="" data-background="images/backgrounds/bg-dots.png" id="Contacts">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 text-center">
-                <h10 class="section-title">Contacts</h10>
-              </div>
-            </div>
-          </div>
-<!-- /contact -->
-        <!-- Add icon library -->
+<!-- /About Me -->
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                    <a href="https://github.com/DanielrdMorais" class="fa fa-github" style="font-size: 50px"></a>
-                    <a href="https://www.linkedin.com/in/danielrdmorais/" class="fa fa-linkedin" style="font-size: 50px"></a>
+                    <div class="grid_contacts">
+                        <div class="Title-Contacts">
+                        <!-- contacts -->
+                        <section class="" data-background="images/backgrounds/bg-dots.png" id="Contacts">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                    <h10 class="section-title">Get in touch</h10>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- /contact -->
+                        </section>
+                        </div>
+                        <div class="Picture">
+                          <img src="images/aboutme/color.png" alt="portfolio-image" class="img-fluid w-100"></div>
+                        <div class="Name">
+                            <h8>Daniel Morais</h8>
+                            <br>
+                            <h7>Robotics Engineer</h7>
+                        </div>
+                        <div class="Bottom-Icons">
+                            <div class="col-12 text-center">
+                                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                <a href="https://github.com/DanielrdMorais" class="fa fa-github" style="font-size: 50px"></a>
+                                <a href="https://www.linkedin.com/in/danielrdmorais/" class="fa fa-linkedin" style="font-size: 50px"></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>
-        <!-- /social icon -->
     </div>
   </div>
-</footer>
+</div>
+
+    
 <!-- /footer -->
+    
+<section class="bg-dark footer-section">
+    <div class="text-center">
+    <h11>&copy; Daniel Morais 2021</h11>
+    </div>
+</section>    
 
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
